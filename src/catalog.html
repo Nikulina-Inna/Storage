@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src=JS.js></script>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/main.css"> 
+</head>
+<body>
+ 	<header>
+		<div class= "menu">
+			<div><a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a></div>
+		
+			<div class="LinkCenterMenu">
+				<ul>
+				<li><a href="">Одежда</a></li>
+				<li><a href="">Обувь</a></li>
+				<li><a href="">Аксессуары</a></li>
+				<li><a href="">Новинки</a></li>
+				</ul>
+			</div>
+			<div id="wrap">
+				<form action="" autocomplete="on">
+				<input id="search" name="search" type="text" placeholder="Поиск по названию">
+				<input id="search_submit" type="submit">
+				</form>
+			</div>
+			<div class="ImgLinkMenu">
+				<ul>
+					<li><img src="img/search.png"></li>
+					<li><a href="basket.html"><img src="img/busket.png"></a></li>
+					<li><a href="#win2"><img src="img/user.png"></a></li>
+				</ul>
+			</div>
+			<a href="#x" class="overlay" id="win2"></a>
+			<div class="popup">
+			<p>Авторизация</p>
+			  <hr size=1px width=100% color=#C9CAC9><br>
+			<form name="iAccInput">
+			  <p><input class= "loginInput" name="loginName" placeholder="✎ Логин"></p><br>
+			  <p><input class= "loginInput" name="Password" placeholder="✎ Пароль"></p><br>
+			  <a class="linkReg" href="#win3">Регистрация</a>
+			  <input class= "loginButton" value=" Вход " readonly>
+			</form> 
+			<a class="close"title="Закрыть" href="#close"></a>
+			</div>
+
+			<a href="#x" class="overlay" id="win3"></a>
+			<div class="popupReg">
+			<p>Регистрация</p>
+			  <hr size=1px width=100% color=#C9CAC9><br>
+			<form name="newAkk">
+			<p><input class= "newAkkInput" name="Name" placeholder="✎ Имя"></p><br>
+			<p><input class= "newAkkInput" name="lastName" placeholder="✎ Фамилия"></p><br>
+			<p><input class= "newAkkInput" name="phone" placeholder="✎ Телефон"></p><br>
+			<p><input class= "newAkkInput" name="adress" placeholder="✎ Адрес доставки"></p><br>
+
+			<input class= "newAkkButton" value=" Создать аккаунт " readonly>
+			</form> 
+			<a class="close"title="Закрыть" href="#close"></a>
+			</div>
+
+		</div>
+					<div class= "WorkingPart">
+						<div class="LeftMenu">
+							<p class= "ClothesMenu">Одежда</p>
+							<p class= "LinkClothesMenu"><a href="">Вержняя одежда</a></p>
+							<p class= "LinkClothesMenu"><a href="">Толстовки, свитшоты</a></p>
+							<p class= "LinkClothesMenu"><a href="">Футболки</a></p>
+							<p class= "LinkClothesMenu"><a href="">Платья</a></p>
+							<p class= "LinkClothesMenu"><a href="">Джинсы</a></p>
+							<p class= "ClothesSizeMenu">Размер</p>
+
+							<button class="ButSize">S</button>
+							<button class="ButSize">M</button>
+							<button class="ButSize">L</button>
+							<button class="ButSize">XL</button>
+
+							<p class= "ClothesSizeMenu">Цвет</p>
+							<button class="ButColor1"></button>
+							<button class="ButColor2"></button>
+							<button class="ButColor3"></button>
+							<button class="ButColor4"></button>
+						</div>
+
+						<table class= "TableGoods">
+							<tr>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes"><a href="card.html">Толстовка женская</p>
+								</td>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes">Толстовка женская</p>
+								</td>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes">Толстовка женская</p>
+								</td>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes">Толстовка женская</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes">Толстовка женская</p>
+								</td>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes">Толстовка женская</p>
+								</td>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes">Толстовка женская</p>
+								</td>
+								<td>
+									<div><img class="Goods" src="img/Goods1.png"></div>
+									<p class= "PriceClothes">1 800 RUB</p>
+									<p class= "InfoClothes">Толстовка женская</p>
+								</td>
+							</tr>
+						</table>
+
+					</div>
+	</header>
+
+	<footer>
+
+		<div class= "footerBackgroung">	
+			<table class= "TableFooter">
+				<tr>
+					<td>
+							<div><img class="logoModis" src="img/MODIS.png"></div>
+							<div class="ImgLinkSocial">
+									<li><a href="##"><img src="img/twitter.png"></a></li>
+									<li><a href="##"><img src="img/instagram.png"></a></li>
+									<li><a href="##"><img src="img/facebook.png"></a></li>
+							</div>
+							<div class= "TextBlocked">
+								<p>ⓒ 2019-2020 ООО “Modis” Все права защищины</p>
+							</div>
+					</td>
+					<td>
+						<p class= "NameMenuStyle">Одежда</p>
+							<p class= "LinkMenuStyle"><a href="">Вержняя одежда</a></p>
+							<p class= "LinkMenuStyle"><a href="">Толстовки, свитшоты</a></p>
+							<p class= "LinkMenuStyle"><a href="">Футболки</a></p>
+							<p class= "LinkMenuStyle"><a href="">Платья</a></p>
+							<p class= "LinkMenuStyle"><a href="">Джинсы</a></p>
+					</td>
+					<td>
+						<p class= "NameMenuStyle">Обувь</p>
+						<p class= "LinkMenuStyle"><a href="">Ботинки</a></p>
+						<p class= "LinkMenuStyle"><a href="">Кроссовки</a></p>
+						<p class= "LinkMenuStyle"><a href="">Кеды</a></p>
+					</td>
+					<td>
+						<p class= "NameMenuStyle">Аксессуары</p>
+						<p class= "LinkMenuStyle"><a href="">Сумки, рюкзаки</a></p>
+						<p class= "LinkMenuStyle"><a href="">Кошельки</a></p>
+						<p class= "LinkMenuStyle"><a href="">Шапки, шарфы</a></p>
+						<p class= "LinkMenuStyle"><a href="">Очки</a></p>
+						<p class= "LinkMenuStyle"><a href="">Бижутерия</a></p>
+					</td>
+					<td>
+						<p class= "NameMenuStyle">Помощь</p>
+						<p class= "LinkMenuStyle"><a href="">Как сделать заказ</a></p>
+						<p class= "LinkMenuStyle"><a href="">Оплата</a></p>
+						<p class= "LinkMenuStyle"><a href="">Доставка</a></p>
+						<p class= "LinkMenuStyle"><a href="">Контакты</a></p>
+					</td>
+					<td>
+						<p class= "TextDiscount">Подпишитесь на рассылку и получите скидку -10%</p>
+						<form>
+							<div class="Input">      
+							   <input type="text" required>
+							   <span class="bar"></span>
+							   <label>Email</label>
+							</div>
+						 </form>
+						 <div class="input_checkbox_list">
+							<div class="checkbox_item">
+							  <input type="checkbox" id="check1" class="input-checkbox">
+							  <label for="check1">Принимаю условия рассылки</label>
+							</div>
+						 <div class= "ButInTable">
+						 <button class= "ButtonOK">Подписаться</button>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</footer>
+
+</body>
+</html>
